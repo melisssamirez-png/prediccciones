@@ -1,17 +1,27 @@
 // Crear las listas de imágenes, títulos y frases
 const imagenes = [
-  "https://www.postposmo.com/wp-content/uploads/2020/09/Especies-end%C3%A9micas-de-colombia-3.jpg",
-  "https://www.postposmo.com/wp-content/uploads/2020/09/Especies-end%C3%A9micas-de-colombia-4.jpg",
+  "../imagenes/guss.jpg",
+  "../imagenes/isa.jpg",
+  "../imagenes/manuel.jpg",
+  "../imagenes/tom.jpg",
+  "../imagenes/meli.jpg"
 ];
 
 const titulos = [
-  "Tortuga morrocoy",
-  "Ranita venenosa",
+  "Gus",
+  "Isa",
+  "Fandiño",
+  "Tom",
+  "Meli",
 ];
 
 const frases = [
-  "Te alimentas de plantas, frutas, hojas y flores. Vives en bosques de climas cálidos y prefieres la tierra que el agua.",
-  "Eres pequeña pero tu extravagancia no pasa desapercibida. Vives en bosques húmedos y lluviosos y tienes veneno en la piel.",
+  "Bajista. No se escucha. Kinda funny.",
+  "Hermosa, magnífica, espectacular, tecladista dotada de talento.",
+  "Bateria, es mandón, toca 25 instrumentos.",
+  "Guitarrista, se enoja cuando tiene hambre. ¡JAZZ!",
+  "Vocalista, líder de la banda, escribe las mejores letras.¡es PERFECTA!"
+
 ];
 
 // Trae los elementos del HTML que tienen ese id
@@ -28,6 +38,8 @@ function numeroRandom(min, max) {
 function generarPrediccion() {
   // Para elegir la misma posición en todas las listas, generar un solo número aleatorio
   const indice = numeroRandom(0, frases.length); // 0, 1, 2, 3
+
+  console.log(indice)
 
   // Reemplaza el texto del elemento 'titulo' por un título de la lista de títulos elegido aleatoriamente
   titulo.innerText = titulos[indice]; // Entre los [] se pasa el número aleatorio generado arriba

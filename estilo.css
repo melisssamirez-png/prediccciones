@@ -3,6 +3,11 @@ html {
   height: 100%;
 }
 
+body {
+
+  background-color: rgb(245, 224, 106);
+}
+
 *,
 *:before,
 *:after {
@@ -34,21 +39,36 @@ h2 {
 #tituloPagina {
   margin-top: 1em;
   margin-bottom: 0;
-  font-family: sans-serif;
+   font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: bolder;
+
+  
 }
 
+
 #foto {
- height: 300px;
-  border: #ff7300 solid 5px;
-  margin-top: 15px;
+ height: 600px;;
+  border: #3d00fdb5 solid 5px;
+  margin-top: 30px;
 }
 
 .tituloPrediccion {
   font-size: 2em;
+    margin-bottom: 0;
+  font-family: "Libertinus Keyboard", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+;
 }
 
 .prediccion {
   font-size: 1.5em;
+ font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 }
 
 .prediccion::first-letter {
@@ -57,6 +77,9 @@ h2 {
 
 #boton {
   font-size: 0.9em;
+   font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: #3d00fdb5;
   color: white;
   margin-bottom: 2em;
