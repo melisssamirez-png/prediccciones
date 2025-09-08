@@ -4,7 +4,8 @@ const imagenes = [
   "../imagenes/isa.jpg",
   "../imagenes/manuel.jpg",
   "../imagenes/tom.jpg",
-  "../imagenes/meli.jpg"
+  "../imagenes/meli.jpg",
+  "../imagenes/todos.jpg",
 ];
 
 const titulos = [
@@ -13,6 +14,7 @@ const titulos = [
   "Fandiño",
   "Tom",
   "Meli",
+  "CLICK DE NUEVO",
 ];
 
 const frases = [
@@ -20,7 +22,8 @@ const frases = [
   "Hermosa, magnífica, espectacular, tecladista dotada de talento.",
   "Bateria, es mandón, toca 25 instrumentos.",
   "Guitarrista, se enoja cuando tiene hambre. ¡JAZZ!",
-  "Vocalista, líder de la banda, escribe las mejores letras.¡es PERFECTA!"
+  "Vocalista, líder de la banda, escribe las mejores letras.¡es PERFECTA!",
+  "¡Somos FulHaus!",
 
 ];
 
