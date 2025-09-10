@@ -1,9 +1,9 @@
 // Crear las listas de imágenes, títulos y frases
 const imagenes = [
-  "../predicciones/imagenes/guss.jpg",
-  "../predicciones/imagenes/isa.jpg",
-  "../predicciones/imagenes/manuel.jpg",
-  "../predicciones/imagenes/tom.jpg",
+  "../imagenes/guss.jpg",
+  "predicciones/imagenes/isa.jpg",
+  "/predicciones/imagenes/manuel.jpg",
+  "./predicciones/imagenes/tom.jpg",
   "../predicciones/imagenes/meli.jpg",
   "../predicciones/imagenes/todos.jpg",
 ];
